@@ -1,0 +1,1580 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: All In One Advance Cart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-27 12:45+0000\n"
+"PO-Revision-Date: 2026-02-27 12:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.9; wp-6.9.1\n"
+"X-Domain: th-all-in-one-woo-cart"
+
+#: th-all-in-one-woo-cart.php:79 inc/themehunk-menu/th-option/th-option.php:163
+#: inc/themehunk-menu/th-option/th-option.php:171
+msgid "Settings"
+msgstr ""
+
+#: th-all-in-one-woo-cart.php:104
+msgid "Live Demo"
+msgstr ""
+
+#: th-all-in-one-woo-cart.php:106 inc/taiowc-help.php:15
+msgid "Documentation"
+msgstr ""
+
+#: th-all-in-one-woo-cart.php:108 inc/themehunk-menu/th-option/sidebar.php:36
+msgid "Support"
+msgstr ""
+
+#: th-all-in-one-woo-cart.php:110
+msgid "Pro Version"
+msgstr ""
+
+#: th-all-in-one-woo-cart.php:110
+msgid "Premium Version"
+msgstr ""
+
+#. Author of the plugin
+#: inc/taiowc-block.php:83 inc/taiowc-cart-fragment.php:125
+#: inc/taiowc-markup.php:122 inc/taiowc-option.php:577
+#: inc/themehunk-menu/admin-menu.php:48 inc/themehunk-menu/admin-menu.php:48
+#: inc/themehunk-menu/th-option/th-option.php:11
+msgid "ThemeHunk"
+msgstr ""
+
+#: inc/taiowc-cart-fragment.php:125 inc/taiowc-markup.php:122
+msgid "Powered by "
+msgstr ""
+
+#: inc/taiowc-help.php:9 inc/taiowc-help.php:12
+#: inc/themehunk-menu/th-option/th-option.php:185
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/taiowc-help.php:10
+msgid ""
+"Lets remove users confusion & help them to choose the correct product. Make "
+"product selection easy & advanced, using Compare Pro."
+msgstr ""
+
+#: inc/taiowc-help.php:16
+msgid ""
+"Our plugin is well documented, Please go with documentation & learn to "
+"customise plugin."
+msgstr ""
+
+#: inc/taiowc-help.php:17
+msgid "Docs"
+msgstr ""
+
+#: inc/taiowc-help.php:20
+msgid "Contact Support"
+msgstr ""
+
+#: inc/taiowc-help.php:21
+msgid "If you need any help you can contact to our support team."
+msgstr ""
+
+#: inc/taiowc-help.php:22
+msgid "Need help ?"
+msgstr ""
+
+#: inc/taiowc-help.php:25
+msgid "Spread the News"
+msgstr ""
+
+#: inc/taiowc-help.php:26
+msgid ""
+"Enjoying this plugin? Help spread the the creation and show off your amazing "
+"website with such amazing functionality."
+msgstr ""
+
+#: inc/taiowc-help.php:33
+msgid " Click to Tweet"
+msgstr ""
+
+#: inc/taiowc-help.php:36 inc/themehunk-menu/th-option/sidebar.php:21
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/taiowc-help.php:37 inc/themehunk-menu/th-option/sidebar.php:22
+msgid "We would love to hear your feedback."
+msgstr ""
+
+#: inc/taiowc-help.php:38 inc/themehunk-menu/th-option/sidebar.php:23
+msgid "Submit review"
+msgstr ""
+
+#: inc/taiowc-markup.php:182 inc/taiowc-option.php:1114
+msgid "Payment Details"
+msgstr ""
+
+#: inc/taiowc-markup.php:187 inc/taiowc-option.php:1121
+msgid "Sub Total"
+msgstr ""
+
+#: inc/taiowc-option.php:37 inc/taiowc-setting.php:68
+msgid "Integration"
+msgstr ""
+
+#: inc/taiowc-option.php:53
+msgid "How To Add"
+msgstr ""
+
+#: inc/taiowc-option.php:67
+msgid "General"
+msgstr ""
+
+#: inc/taiowc-option.php:74
+msgid "Fixed Cart"
+msgstr ""
+
+#: inc/taiowc-option.php:81
+msgid "Enable Cart"
+msgstr ""
+
+#: inc/taiowc-option.php:82
+msgid ""
+"Uncheck to disable Floating and Fixed cart. Still you can use \"Shortcode\" "
+"and \"Menu\" cart"
+msgstr ""
+
+#: inc/taiowc-option.php:90
+msgid "Cart Open With"
+msgstr ""
+
+#: inc/taiowc-option.php:94
+msgid "Auto Open with Ajax"
+msgstr ""
+
+#: inc/taiowc-option.php:95
+msgid "Auto Open with Image fly Effect"
+msgstr ""
+
+#: inc/taiowc-option.php:99
+msgid ""
+"These options will open cart panel as soon as product added to the cart."
+msgstr ""
+
+#: inc/taiowc-option.php:106
+msgid "Choose Cart Icon"
+msgstr ""
+
+#: inc/taiowc-option.php:124
+msgid "Upload Icon Image"
+msgstr ""
+
+#: inc/taiowc-option.php:125
+msgid "Recommended cart image size 60 x 60px"
+msgstr ""
+
+#: inc/taiowc-option.php:132
+msgid "Enable floating cart Visibility"
+msgstr ""
+
+#: inc/taiowc-option.php:133
+msgid "Check when you want to enable floating cart when no product is in cart"
+msgstr ""
+
+#: inc/taiowc-option.php:158
+msgid "Cart Title"
+msgstr ""
+
+#: inc/taiowc-option.php:159 inc/taiowc-option.php:510
+msgid "Cart"
+msgstr ""
+
+#: inc/taiowc-option.php:176
+msgid "Menu Cart (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:179
+msgid "Menu Cart Configuration"
+msgstr ""
+
+#: inc/taiowc-option.php:190
+msgid "Show Price"
+msgstr ""
+
+#: inc/taiowc-option.php:199 inc/taiowc-option.php:318
+msgid "Show Quantity"
+msgstr ""
+
+#: inc/taiowc-option.php:210
+msgid "Sizing & Layout"
+msgstr ""
+
+#: inc/taiowc-option.php:217
+msgid "Price Font Size"
+msgstr ""
+
+#: inc/taiowc-option.php:227 inc/taiowc-option.php:384
+msgid "Icon Size"
+msgstr ""
+
+#: inc/taiowc-option.php:239 inc/taiowc-option.php:406
+msgid "Color Palette"
+msgstr ""
+
+#: inc/taiowc-option.php:246 inc/taiowc-option.php:643
+msgid "Background"
+msgstr ""
+
+#: inc/taiowc-option.php:253
+msgid "Price"
+msgstr ""
+
+#: inc/taiowc-option.php:260 inc/taiowc-option.php:436
+msgid "Quantity Background"
+msgstr ""
+
+#: inc/taiowc-option.php:267 inc/taiowc-option.php:443
+msgid "Quantity Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:274 inc/taiowc-option.php:421
+msgid "Cart Icon Color"
+msgstr ""
+
+#: inc/taiowc-option.php:293
+msgid "Fixed Cart (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:296
+msgid "Fixed Cart Configuration"
+msgstr ""
+
+#: inc/taiowc-option.php:303
+msgid "Cart Style"
+msgstr ""
+
+#: inc/taiowc-option.php:326
+msgid "Fixed Cart Position"
+msgstr ""
+
+#: inc/taiowc-option.php:330 inc/taiowc-option.php:1371
+msgid "Right"
+msgstr ""
+
+#: inc/taiowc-option.php:331 inc/taiowc-option.php:1372
+msgid "Left"
+msgstr ""
+
+#: inc/taiowc-option.php:340
+msgid "Fixed Cart Position From Right"
+msgstr ""
+
+#: inc/taiowc-option.php:350
+msgid "Fixed Cart Position From Left"
+msgstr ""
+
+#: inc/taiowc-option.php:361
+msgid "Fixed Cart Position From Bottom"
+msgstr ""
+
+#: inc/taiowc-option.php:377
+msgid "Style Properties"
+msgstr ""
+
+#: inc/taiowc-option.php:394 inc/taiowc-option.php:770
+msgid "Border Radius"
+msgstr ""
+
+#: inc/taiowc-option.php:413 inc/taiowc-option.php:755
+msgid "Cart Background"
+msgstr ""
+
+#: inc/taiowc-option.php:428
+msgid "Price Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:460
+msgid "Cart Side Panel (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:463 inc/taiowc-option.php:1344
+msgid "FIXED CART / FLOATING CART"
+msgstr ""
+
+#: inc/taiowc-option.php:476
+msgid "Cart Panel Settings"
+msgstr ""
+
+#: inc/taiowc-option.php:484
+msgid "Show Icon"
+msgstr ""
+
+#: inc/taiowc-option.php:492 inc/taiowc-option.php:1387
+msgid "Open Style"
+msgstr ""
+
+#: inc/taiowc-option.php:496
+msgid "Slide Right"
+msgstr ""
+
+#: inc/taiowc-option.php:497
+msgid "Slide Left"
+msgstr ""
+
+#: inc/taiowc-option.php:498
+msgid "Dropdown on Click"
+msgstr ""
+
+#: inc/taiowc-option.php:499
+msgid "Cart Page"
+msgstr ""
+
+#: inc/taiowc-option.php:508
+msgid "Cart Heading"
+msgstr ""
+
+#: inc/taiowc-option.php:519
+msgid "Product Order"
+msgstr ""
+
+#: inc/taiowc-option.php:523
+msgid "Add Product at the Top"
+msgstr ""
+
+#: inc/taiowc-option.php:525
+msgid "Add Product at the Bottom"
+msgstr ""
+
+#: inc/taiowc-option.php:535
+msgid "Empty Cart Button Text"
+msgstr ""
+
+#: inc/taiowc-option.php:537
+msgid "Back To Shop"
+msgstr ""
+
+#: inc/taiowc-option.php:546
+msgid "Empty Cart Button URL"
+msgstr ""
+
+#: inc/taiowc-option.php:547
+msgid ""
+"Add URL to which you want to redirect user in case of empty cart. By default "
+"user will be redirected to shop page."
+msgstr ""
+
+#: inc/taiowc-option.php:560
+msgid "Show Cart Button"
+msgstr ""
+
+#: inc/taiowc-option.php:568
+msgid "Show Footer Text"
+msgstr ""
+
+#: inc/taiowc-option.php:575
+msgid "Footer Text"
+msgstr ""
+
+#: inc/taiowc-option.php:584
+msgid "Link"
+msgstr ""
+
+#: inc/taiowc-option.php:586
+msgid "https://themehunk.com/"
+msgstr ""
+
+#: inc/taiowc-option.php:597
+msgid "Cart Header Area"
+msgstr ""
+
+#: inc/taiowc-option.php:604
+msgid "Icon Color"
+msgstr ""
+
+#: inc/taiowc-option.php:611 inc/taiowc-option.php:724
+#: inc/taiowc-option.php:799
+msgid "Heading Color"
+msgstr ""
+
+#: inc/taiowc-option.php:618
+msgid "Close Color"
+msgstr ""
+
+#: inc/taiowc-option.php:626
+msgid "Header Background"
+msgstr ""
+
+#: inc/taiowc-option.php:636
+msgid "Cart Content Area"
+msgstr ""
+
+#: inc/taiowc-option.php:651 inc/taiowc-option.php:806
+msgid "Product Background"
+msgstr ""
+
+#: inc/taiowc-option.php:658 inc/taiowc-option.php:813
+msgid "Product Title Color"
+msgstr ""
+
+#: inc/taiowc-option.php:665 inc/taiowc-option.php:820
+msgid "Product Rating Color"
+msgstr ""
+
+#: inc/taiowc-option.php:672
+msgid "Product Delete Color"
+msgstr ""
+
+#: inc/taiowc-option.php:679
+msgid "Product Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:686
+msgid "Product Border Color"
+msgstr ""
+
+#: inc/taiowc-option.php:695
+msgid "Cart Panel order Area"
+msgstr ""
+
+#: inc/taiowc-option.php:702
+msgid "Background Color"
+msgstr ""
+
+#: inc/taiowc-option.php:709
+msgid "Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:717 inc/taiowc-option.php:792
+msgid "Heading Background"
+msgstr ""
+
+#: inc/taiowc-option.php:732
+msgid "Link Color"
+msgstr ""
+
+#: inc/taiowc-option.php:740
+msgid "Checkout Background"
+msgstr ""
+
+#: inc/taiowc-option.php:747
+msgid "Checkout Button Color"
+msgstr ""
+
+#: inc/taiowc-option.php:762
+msgid "Cart Button Color"
+msgstr ""
+
+#: inc/taiowc-option.php:785
+msgid "Cart Panel May you like Style"
+msgstr ""
+
+#: inc/taiowc-option.php:826
+msgid "Product Price Color"
+msgstr ""
+
+#: inc/taiowc-option.php:832
+msgid "Product Add to cart Background"
+msgstr ""
+
+#: inc/taiowc-option.php:838
+msgid "Product Add to cart Color"
+msgstr ""
+
+#: inc/taiowc-option.php:847
+msgid "Coupon Style"
+msgstr ""
+
+#: inc/taiowc-option.php:853
+msgid "Coupon Box Background"
+msgstr ""
+
+#: inc/taiowc-option.php:860
+msgid "Coupon Box Border Color"
+msgstr ""
+
+#: inc/taiowc-option.php:867
+msgid "Coupon Box Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:874
+msgid "Coupon Box Submit Color"
+msgstr ""
+
+#: inc/taiowc-option.php:881
+msgid "Coupon View Color"
+msgstr ""
+
+#: inc/taiowc-option.php:889
+msgid "Coupon Code Background"
+msgstr ""
+
+#: inc/taiowc-option.php:896
+msgid "Coupon Code Border Color"
+msgstr ""
+
+#: inc/taiowc-option.php:903
+msgid "Coupon Code Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:910
+msgid "Coupon Code Offer Color"
+msgstr ""
+
+#: inc/taiowc-option.php:918
+msgid "Coupon Code Button Background"
+msgstr ""
+
+#: inc/taiowc-option.php:925
+msgid "Coupon Code Button Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:932
+msgid "Added Coupon Background"
+msgstr ""
+
+#: inc/taiowc-option.php:939
+msgid "Added Coupon Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:946
+msgid "Added Coupon Cross Color"
+msgstr ""
+
+#: inc/taiowc-option.php:959
+msgid "Cart Panel Notification"
+msgstr ""
+
+#: inc/taiowc-option.php:967
+msgid "Show Notification"
+msgstr ""
+
+#: inc/taiowc-option.php:974
+msgid "Success Background"
+msgstr ""
+
+#: inc/taiowc-option.php:981
+msgid "Success Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:988
+msgid "Error Background"
+msgstr ""
+
+#: inc/taiowc-option.php:995
+msgid "Error Text Color"
+msgstr ""
+
+#: inc/taiowc-option.php:1010
+msgid "Content Visibility (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:1013
+msgid "Product List"
+msgstr ""
+
+#: inc/taiowc-option.php:1019
+msgid "Product Image"
+msgstr ""
+
+#: inc/taiowc-option.php:1020
+msgid "Uncheck to hide product image from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1026
+msgid "Product Title"
+msgstr ""
+
+#: inc/taiowc-option.php:1027
+msgid "Uncheck to hide product Title from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1033
+msgid "Product Price"
+msgstr ""
+
+#: inc/taiowc-option.php:1034
+msgid "Uncheck to hide product Price from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1040
+msgid "Product Quantity"
+msgstr ""
+
+#: inc/taiowc-option.php:1041
+msgid "Uncheck to hide product Quantity from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1047
+msgid "Product Rating"
+msgstr ""
+
+#: inc/taiowc-option.php:1048
+msgid "Uncheck to hide product Rating from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1059
+msgid "PRODUCTS YOU MAY ALSO LIKE"
+msgstr ""
+
+#: inc/taiowc-option.php:1065
+msgid "Enable"
+msgstr ""
+
+#: inc/taiowc-option.php:1066
+msgid ""
+"Enable/Disable “Product You May Also Like” Section on the Cart Panel Below "
+"Product List. (By Enabling this you will be able to display products from "
+"Cross Sell, Up Sell, Related or from Custom Products.)"
+msgstr ""
+
+#: inc/taiowc-option.php:1073
+msgid "Heading"
+msgstr ""
+
+#: inc/taiowc-option.php:1074
+msgid "Products you may like"
+msgstr ""
+
+#: inc/taiowc-option.php:1082
+msgid "Choose Product"
+msgstr ""
+
+#: inc/taiowc-option.php:1085
+msgid "Cross Sell"
+msgstr ""
+
+#: inc/taiowc-option.php:1086
+msgid "Up Sell"
+msgstr ""
+
+#: inc/taiowc-option.php:1087
+msgid "Related"
+msgstr ""
+
+#: inc/taiowc-option.php:1088
+msgid "Your Products"
+msgstr ""
+
+#: inc/taiowc-option.php:1096
+msgid "Product Slug"
+msgstr ""
+
+#: inc/taiowc-option.php:1098
+msgid "Use Product Slug separated by comma. For eg: product-1, product-2 "
+msgstr ""
+
+#: inc/taiowc-option.php:1107
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/taiowc-option.php:1113
+msgid "Payment Heading"
+msgstr ""
+
+#: inc/taiowc-option.php:1120
+msgid "Sub Total Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1128
+msgid "Show Shipping"
+msgstr ""
+
+#: inc/taiowc-option.php:1129
+msgid "Uncheck to hide shipping details from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1135
+msgid "Shipping Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1136
+msgid "Shipping"
+msgstr ""
+
+#: inc/taiowc-option.php:1143
+msgid "Show Discount"
+msgstr ""
+
+#: inc/taiowc-option.php:1144
+msgid "Uncheck to hide product discount from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1150
+msgid "Discount Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1151
+msgid "Discount"
+msgstr ""
+
+#: inc/taiowc-option.php:1157
+msgid "Total Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1158
+msgid "Total"
+msgstr ""
+
+#: inc/taiowc-option.php:1167
+msgid "COUPON SETTINGS"
+msgstr ""
+
+#: inc/taiowc-option.php:1174
+msgid "Show Coupon"
+msgstr ""
+
+#: inc/taiowc-option.php:1176
+msgid "Uncheck to hide coupon details from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1183
+msgid "Placeholder Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1184
+msgid "Enter your Promo Code"
+msgstr ""
+
+#: inc/taiowc-option.php:1192
+msgid "Apply Coupon Button Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1193
+msgid "Apply"
+msgstr ""
+
+#: inc/taiowc-option.php:1201
+msgid "Show Coupon List"
+msgstr ""
+
+#: inc/taiowc-option.php:1202
+msgid "Uncheck to hide coupon list from cart panel."
+msgstr ""
+
+#: inc/taiowc-option.php:1209
+msgid "View Coupon Link Text"
+msgstr ""
+
+#: inc/taiowc-option.php:1210
+msgid "View Coupons"
+msgstr ""
+
+#: inc/taiowc-option.php:1218
+msgid "Show Added Coupon"
+msgstr ""
+
+#: inc/taiowc-option.php:1219
+msgid "Uncheck to hide applied coupons list."
+msgstr ""
+
+#: inc/taiowc-option.php:1234
+msgid "Visibility Rules (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:1237
+msgid "Page Exclusion List"
+msgstr ""
+
+#: inc/taiowc-option.php:1243
+msgid "Hide on Cart Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1244
+msgid ""
+"Prevents the floating cart from appearing when the customer is viewing their "
+"cart summary."
+msgstr ""
+
+#: inc/taiowc-option.php:1250
+msgid "Hide on Checkout Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1251
+msgid ""
+"Disables the cart widget during the checkout process to minimize "
+"distractions and improve conversion."
+msgstr ""
+
+#: inc/taiowc-option.php:1257
+msgid "Hide on Shop Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1258
+msgid "Hides the cart on the main product archive/shop directory pages."
+msgstr ""
+
+#: inc/taiowc-option.php:1264
+msgid "Hide on Account Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1265
+msgid ""
+"Removes visibility from the customer dashboard and account management areas."
+msgstr ""
+
+#: inc/taiowc-option.php:1271
+msgid "Hide on Single Product Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1272
+msgid "Hides the widget specifically on individual product landing pages."
+msgstr ""
+
+#: inc/taiowc-option.php:1278
+msgid "Hide on Home Page"
+msgstr ""
+
+#: inc/taiowc-option.php:1279
+msgid ""
+"Keep your landing page clean by hiding the cart widget on your root domain "
+"home page."
+msgstr ""
+
+#: inc/taiowc-option.php:1285
+msgid "Hide on Blog Feed"
+msgstr ""
+
+#: inc/taiowc-option.php:1286
+msgid ""
+"Hides the cart widget when users are reading your blog posts or news feed."
+msgstr ""
+
+#: inc/taiowc-option.php:1292
+msgid "Hide Cart from Pages"
+msgstr ""
+
+#: inc/taiowc-option.php:1293
+msgid ""
+"To Hide Cart from Selected Pages, Use Taxonomy/PageID/Slug Separated by "
+"Comma. For Eg: post,69,about-us.\n"
+"                                To hide Cart from all Non WooCommerce Pages "
+"use no-woocommerce Same for Checkout Page use checkout, and for Cart page "
+"use cart"
+msgstr ""
+
+#: inc/taiowc-option.php:1311
+msgid "Mobile Experience (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:1314
+msgid "Menu Cart / Shortcode Cart"
+msgstr ""
+
+#: inc/taiowc-option.php:1320 inc/taiowc-option.php:1350
+msgid "Disable"
+msgstr ""
+
+#: inc/taiowc-option.php:1321
+msgid "Disable Menu Cart/Shortcode Cart in mobile"
+msgstr ""
+
+#: inc/taiowc-option.php:1327
+msgid "Disable Cart Quantity"
+msgstr ""
+
+#: inc/taiowc-option.php:1334
+msgid "Disable Cart Price"
+msgstr ""
+
+#: inc/taiowc-option.php:1351
+msgid "Disable Fixed Cart in mobile"
+msgstr ""
+
+#: inc/taiowc-option.php:1357
+msgid "Disable Quantity"
+msgstr ""
+
+#: inc/taiowc-option.php:1366
+msgid "Position"
+msgstr ""
+
+#: inc/taiowc-option.php:1367
+msgid "This will overide the Global Position Setting"
+msgstr ""
+
+#: inc/taiowc-option.php:1381
+msgid "Cart Panel"
+msgstr ""
+
+#: inc/taiowc-option.php:1391
+msgid "Global"
+msgstr ""
+
+#: inc/taiowc-option.php:1392
+msgid "Mobile Bottom"
+msgstr ""
+
+#: inc/taiowc-option.php:1400
+msgid "Disable Product you may like"
+msgstr ""
+
+#: inc/taiowc-option.php:1407
+msgid "Disable Shipping"
+msgstr ""
+
+#: inc/taiowc-option.php:1414
+msgid "Disable Coupon"
+msgstr ""
+
+#: inc/taiowc-option.php:1426
+msgid "Cart Analytics (Premium)"
+msgstr ""
+
+#: inc/taiowc-option.php:1430
+msgid "Cart Analytics"
+msgstr ""
+
+#: inc/taiowc-option.php:1442
+msgid "Reset All Setting"
+msgstr ""
+
+#: inc/taiowc-option.php:1445
+msgid "Reset All Your Custom Settings."
+msgstr ""
+
+#: inc/taiowc-option.php:1458 inc/taiowc-option.php:1461
+msgid "Help"
+msgstr ""
+
+#: inc/taiowc-premium.php:7 inc/taiowc-setting.php:595
+msgid "Unlock This Feature with Premium"
+msgstr ""
+
+#: inc/taiowc-premium.php:9 inc/taiowc-setting.php:599
+msgid "Premium Feature"
+msgstr ""
+
+#: inc/taiowc-premium.php:14 inc/taiowc-setting.php:603
+msgid ""
+"These options are available for preview purposes only. You can explore and "
+"test them here, but they will not be applied to the live frontend of the "
+"website. To activate these advanced features on your site, please upgrade to "
+"the Pro version."
+msgstr ""
+
+#: inc/taiowc-premium.php:22 inc/taiowc-setting.php:611
+msgid "Go Premium"
+msgstr ""
+
+#: inc/taiowc-setting.php:36
+msgid "AIO Woo Cart"
+msgstr ""
+
+#: inc/taiowc-setting.php:48 inc/themehunk-menu/admin-menu.php:54
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/taiowc-setting.php:54
+msgid ""
+"TH All In One Woo Cart Pro requires WooCommerce to work. Make sure that you "
+"have installed and activated WooCommerce Plugin."
+msgstr ""
+
+#: inc/taiowc-setting.php:71 inc/taiowc-setting.php:73
+msgid "Get Premium Version"
+msgstr ""
+
+#: inc/taiowc-setting.php:78
+msgid "Reset all"
+msgstr ""
+
+#: inc/taiowc-setting.php:81
+msgid "Save Changes"
+msgstr ""
+
+#: inc/taiowc-setting.php:81
+msgid "Save All Changes"
+msgstr ""
+
+#: inc/taiowc-setting.php:618
+msgid "Learn more"
+msgstr ""
+
+#: inc/taiowc-setting.php:650
+msgid "Display cart in the header menu"
+msgstr ""
+
+#: inc/taiowc-setting.php:651
+msgid "PRO FEATURE"
+msgstr ""
+
+#: inc/taiowc-setting.php:652
+msgid "VISUAL EDITOR READY"
+msgstr ""
+
+#: inc/taiowc-setting.php:657
+msgid "Recommended for standard WordPress themes."
+msgstr ""
+
+#: inc/taiowc-setting.php:661
+msgid "Navigate to your dashboard"
+msgstr ""
+
+#: inc/taiowc-setting.php:661
+msgid "Appearance → Menus"
+msgstr ""
+
+#: inc/taiowc-setting.php:662
+msgid "Locate the TH All In One Woo Cart"
+msgstr ""
+
+#: inc/taiowc-setting.php:662
+msgid "item in the left panel and click"
+msgstr ""
+
+#: inc/taiowc-setting.php:663
+msgid "Add to Menu"
+msgstr ""
+
+#: inc/taiowc-setting.php:667
+msgid "NOTE"
+msgstr ""
+
+#: inc/taiowc-setting.php:668
+msgid ""
+"Position the cart element as the last item in your primary navigation for "
+"optimal UI balance."
+msgstr ""
+
+#: inc/taiowc-setting.php:677
+msgid "Use Shortcode Component"
+msgstr ""
+
+#: inc/taiowc-setting.php:678
+msgid "UNIVERSAL"
+msgstr ""
+
+#: inc/taiowc-setting.php:683
+msgid ""
+"Inject the cart into any page builder (Elementor, Divi, Gutenberg) or "
+"standard text block."
+msgstr ""
+
+#: inc/taiowc-setting.php:690
+msgid "Copy shortcode"
+msgstr ""
+
+#: inc/taiowc-setting.php:692 inc/taiowc-setting.php:725
+msgid "Copy"
+msgstr ""
+
+#: inc/taiowc-setting.php:694
+msgid "SHORTCODE"
+msgstr ""
+
+#: inc/taiowc-setting.php:698
+msgid "✔ Widgets"
+msgstr ""
+
+#: inc/taiowc-setting.php:699
+msgid "✔ Blocks"
+msgstr ""
+
+#: inc/taiowc-setting.php:700
+msgid "✔ Elementor"
+msgstr ""
+
+#: inc/taiowc-setting.php:709
+msgid "Direct Template Integration"
+msgstr ""
+
+#: inc/taiowc-setting.php:710
+msgid "ADVANCED"
+msgstr ""
+
+#: inc/taiowc-setting.php:715
+msgid ""
+"For theme developers. Paste this snippet directly into your header.php or "
+"custom template files."
+msgstr ""
+
+#: inc/taiowc-setting.php:723
+msgid "Copy PHP code"
+msgstr ""
+
+#: inc/taiowc-setting.php:728
+msgid "PHP"
+msgstr ""
+
+#: inc/taiowc-setting.php:1031
+msgid "Choose an Image"
+msgstr ""
+
+#: inc/taiowc-setting.php:1032
+msgid "Use Image"
+msgstr ""
+
+#: inc/taiowc-setting.php:1033
+msgid "Add Media"
+msgstr ""
+
+#: inc/taiowc.php:309
+msgid "Quantity"
+msgstr ""
+
+#: inc/taiowc.php:335
+msgid "Remove this item"
+msgstr ""
+
+#: inc/taiowc.php:406
+msgid "Decrease quantity"
+msgstr ""
+
+#: inc/taiowc.php:408
+msgid "Increase quantity"
+msgstr ""
+
+#: inc/taiowc.php:500
+msgid "Your Cart is Empty"
+msgstr ""
+
+#: inc/taiowc.php:572
+msgid "Product removed"
+msgstr ""
+
+#: inc/taiowc.php:576
+msgid "Cart Updated"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:3
+msgid "taiowc_cart_analyst"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:5
+msgid "display: block;"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:16
+msgid "Tracking Analytics Status"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:17
+msgid ""
+"Global session tracking is currently active and recording. Ensure this is "
+"enabled for analytics."
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:21
+msgid "Analytics DISABLED"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:24
+msgid "Analytics ACTIVE"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:29
+msgid "Active Customer Sessions"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:33
+msgid "Username"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:34
+msgid "Product in cart"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:35
+msgid "Last update"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:36
+msgid "Cart Action"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:41
+msgid "User -108"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:42
+msgid "134"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:43
+msgid "D:09-02-2026 T:10:44:48"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:51
+msgid "Guest#1081008"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:52
+#: inc/taiowcp-live-cart-analytics.php:83
+#: inc/taiowcp-live-cart-analytics.php:108
+#: inc/taiowcp-live-cart-analytics.php:121 inc/taiowcp-live-cart-panel.php:84
+#: inc/taiowcp-live-cart-panel.php:100
+msgid "1"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:53
+msgid "D:05-02-2026 T:12:40:42"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:64
+msgid "Product Performance (Most Wanted)"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:68
+msgid "Product Name"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:69
+msgid "Total User"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:70
+msgid "Status"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:77
+#: inc/taiowcp-live-cart-analytics.php:79
+#: inc/taiowcp-live-cart-analytics.php:102
+#: inc/taiowcp-live-cart-analytics.php:115
+msgid "Vivamus maximus purus"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:89
+#: inc/taiowcp-live-cart-analytics.php:91
+msgid "Hoodie"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:95
+msgid "2"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:104
+msgid "Pellentesque habitant morb"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:117
+msgid "Phasellus elit felis vulputate"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:130
+msgid "Export Performance Data"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:131
+msgid ""
+"Download current session datasets in high-fidelity formats for business "
+"intelligence and external reporting."
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:134
+msgid "↓ CSV FORMAT"
+msgstr ""
+
+#: inc/taiowcp-live-cart-analytics.php:135
+msgid "↓ JSON DATA"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:11 inc/taiowcp-live-fixed-cart.php:12
+#: inc/taiowcp-live-menu-cart.php:9 inc/taiowcp-live-mobile.php:22
+msgid "MEGASTORE"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:16 inc/taiowcp-live-fixed-cart.php:17
+#: inc/taiowcp-live-menu-cart.php:14
+msgid "Home"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:17 inc/taiowcp-live-fixed-cart.php:18
+#: inc/taiowcp-live-menu-cart.php:15
+msgid "Shop"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:18 inc/taiowcp-live-fixed-cart.php:19
+#: inc/taiowcp-live-menu-cart.php:16
+msgid "Categories"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:71
+msgid "3"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:73
+msgid "✕"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:80 inc/taiowcp-live-mobile.php:167
+msgid "Classic Red Sneakers"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:81 inc/taiowcp-live-cart-panel.php:97
+#: inc/taiowcp-live-mobile.php:168 inc/taiowcp-live-mobile.php:182
+msgid "★★★★★"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:83 inc/taiowcp-live-cart-panel.php:99
+msgid "-"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:85 inc/taiowcp-live-cart-panel.php:101
+msgid "+"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:96 inc/taiowcp-live-mobile.php:181
+msgid "Minimalist White Tee"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:111 inc/taiowcp-live-mobile.php:194
+msgid "ORDER SUMMARY"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:114 inc/taiowcp-live-mobile.php:197
+msgid "Subtotal"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:119 inc/taiowcp-live-mobile.php:202
+msgid "ORDER TOTAL"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:125
+msgid "View Cart"
+msgstr ""
+
+#: inc/taiowcp-live-cart-panel.php:128
+msgid "Checkout →"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:67
+msgid "Flash Sale"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:68
+msgid "ENDING IN 02:45:00"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:175
+msgid "₹400.00"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:189
+msgid "₹250.00"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:198
+msgid "₹1,220.00"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:203
+msgid "₹720.00"
+msgstr ""
+
+#: inc/taiowcp-live-mobile.php:208
+msgid "PROCEED TO CHECKOUT →"
+msgstr ""
+
+#: inc/taiowcp-reset.php:11
+msgid "Reset All Settings?"
+msgstr ""
+
+#: inc/taiowcp-reset.php:12
+msgid ""
+"This action will restore all configuration settings to their default factory "
+"values. Your \n"
+"                        current custom styles, colors, and behavior logic "
+"will be permanently deleted."
+msgstr ""
+
+#: inc/taiowcp-reset.php:17
+msgid "Are you sure to reset current settings?"
+msgstr ""
+
+#: inc/taiowcp-reset.php:17
+msgid "Reset Settings"
+msgstr ""
+
+#: inc/themehunk-menu/admin-menu.php:24
+msgid "No plugin specified"
+msgstr ""
+
+#: inc/themehunk-menu/admin-menu.php:41
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:4
+msgid "Vayu Blocks"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:11
+msgid "TH Advance Product Search"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:24
+msgid "Th All In One Woo Cart"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:37
+msgid "Th Product Compare"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:50
+msgid "TH Variation Swatches"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:62
+msgid "Lead Form Builder"
+msgstr ""
+
+#: inc/themehunk-menu/plugins-list.php:74
+msgid "WP Popup Builder – Popup Forms & Newsletter"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/header.php:19
+msgid "Plugins"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/header.php:31
+msgid "TH Shop Mania Free Theme"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/header.php:32
+msgid "Elementor + WooCommerce Free WordPress Theme."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/header.php:34
+msgid "View Detail"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:4
+msgid "ThemeHunk Premium Plugins"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:7
+msgid ""
+"If you like the free version of this plugin, you will LOVE the full version "
+"of plugin which includes numerous  Advanced features, Custom Style and more "
+"useful options to customize your plugins."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:8
+msgid "Upgrade To Premium Plugin"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:13
+msgid "Why Upgrade?"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:14
+msgid ""
+"Upgrading to Premium plugins you will unlock a dozen of unique features that "
+"will take your website to the next level."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:15
+msgid "View Premium Plugins"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:29
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:30
+msgid ""
+"Want a guide? We have video tutorials to walk you through getting started."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:31
+msgid "Watch Videos"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:37
+msgid ""
+"Have a question, we are happy to help! Get in touch with our support team."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/sidebar.php:38
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:13
+msgid "ThemeHunk Marketplace"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:14
+msgid "Grow your business with ThemeHunk free/pro themes & plugins."
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:67
+msgid "Activated"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:74
+msgid "Install Now"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:96
+msgid "Activate Now"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:159
+#: inc/themehunk-menu/th-option/th-option.php:170
+msgid "View details"
+msgstr ""
+
+#: inc/themehunk-menu/th-option/th-option.php:180
+msgid "Activating"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block title"
+msgid "Woo Cart"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "woo-cart"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "woocommerce"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "floating-cart"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "ajax-cart"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "woocommerce-cart"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block keyword"
+msgid "themehunk"
+msgstr ""
+
+#: build/block/taiowc/block.json:1 src/block/taiowc/block.json:1
+msgctxt "block description"
+msgid ""
+msgstr ""
+
+#. Name of the plugin
+msgid "All In One Advance Cart"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"TH All In One Woo Cart is a perfect choice to display Cart on your website "
+"and improve your potential customer’s buying experience. This plugin will "
+"add Floating Cart in your website.  Customers can update or remove products "
+"from the cart without reloading the cart continuously. It is a fully "
+"Responsive, mobile friendly plugin and supports many advanced features."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themehunk.com/th-all-in-one-woo-cart/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themehunk.com"
+msgstr ""

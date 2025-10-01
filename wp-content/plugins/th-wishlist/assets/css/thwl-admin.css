@@ -1,0 +1,856 @@
+/* TH Wishlist Admin Styles */
+#thw-settings-notice {
+    display: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+#thw-settings-notice.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+#thw-settings-notice.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.thw-custom-icon-row {
+    display: none;
+}
+
+.thw-tabs-container {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.thw-tabs-nav {
+    width:20%;
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#thw-settings-form{
+width:55%;
+}
+
+.thw-tabs-container{
+flex-wrap: wrap!important;  
+}
+.thw-notes {
+display: flex;
+flex-direction: row!important;  
+width: 100%!important;  
+gap: 20px;
+}
+.thw-wrap-side{
+ width: 33.33%!important;  
+}
+#thw-settings-form {
+    width: 78%!important;  
+}
+.thw-tabs-nav {
+    width:18%!important;  
+}
+
+.thw-tabs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thw-title-content {
+display: flex;
+    align-items: anchor-center;
+    padding: 25px 10px;
+}
+
+.thw-title-content h3 {
+    color: #111;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:0;
+    padding:5px;
+}
+
+.thw-tab {
+    padding: 12px 18px;
+    cursor: pointer;
+    background: #ffffff;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    border-left: 4px solid transparent;
+    position: relative;
+}
+
+.thw-tab:hover {
+    background: #f1f1f1;
+    border-left-color:#524CFF;
+    transform: translateX(4px);
+}
+
+.thw-tab.active {
+    background: #524CFF;
+    color: #ffffff;
+    border-left-color: #524CFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thw-tab.active::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid #524CFF;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.thw-tabs-content {
+    flex: 1;
+    background: #ffffff;
+    padding: 25px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.3s ease;
+    height: 500px;
+    overflow: auto;
+}
+
+.thw-tab-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.thw-tab-content.active {
+    display: block;
+    opacity: 1;
+}
+
+.thw-notes {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.thw-wrap-side {
+    padding: 22px 15px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.thw-wrap-side .wrp-title{
+font-size:1rem;
+}
+
+.thw-wrap-side a {
+    padding: 0.4rem 0.9rem;
+    letter-spacing: -0.08px;
+    font-size: .6875rem;
+    line-height: 1.81818;
+    color: #fff;
+    margin-top: 0.5rem;
+    display: inline-flex;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: auto;
+    box-shadow: none;
+    background: #524CFF;
+    align-items: anchor-center;
+}
+.thw-wrap-side a:hover, .thw-wrap-side a:focus {
+    background: #524CFF;
+    border-color: #524CFF;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Styling for form inputs */
+.thw-tabs-content .form-table th {
+    font-weight: 600;
+    color: #1d2327;
+    padding: 15px 10px 15px 0;
+}
+
+.thw-tabs-content .form-table td {
+    padding: 15px 0;
+}
+
+.thw-tabs-content .form-table input[type="text"],
+.thw-tabs-content .form-table input[type="url"],
+.thw-tabs-content .form-table select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thw-tabs-content .form-table input[type="text"]:focus,
+.thw-tabs-content .form-table input[type="url"]:focus,
+.thw-tabs-content .form-table select:focus {
+    border-color: #524CFF;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+    outline: none;
+}
+
+.thw-tabs-content .form-table input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border: 1px solid #dcdcde;
+    border-radius: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.thw-tabs-content .form-table input[type="checkbox"]:checked {
+    background: transparent!important;
+    border-color: #524CFF;
+}
+
+.thw-tabs-content .form-table .description {
+    color: #646970;
+    font-size: 13px;
+    margin-top: 8px;
+    display: block;
+}
+
+.thw-tabs-content .form-table button.button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.thw-tabs-content .form-table button.button-primary {
+    background: #524CFF;
+    border-color: #524CFF;
+    color: #ffffff;
+}
+
+.thw-tabs-content .form-table button.button-primary:hover {
+    background: #524CFF;
+    transform: translateY(-1px);
+}
+
+.thw-sortable-columns .thw-sortable-item {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.thw-sortable-columns .thw-drag-handle {
+    cursor: move;
+    color: #646970;
+}
+
+.thw-sortable-columns input[type="text"] {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.thw-custom-icon-row.show {
+    display: table-row;
+}
+.thw-sortable-columns {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px;
+}
+.thw-sortable-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 5px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: move;
+}
+.thw-sortable-item:hover {
+    background: #f1f1f1;
+}
+.thw-drag-handle {
+    margin-right: 10px;
+    color: #555;
+    cursor: grab;
+}
+.thw-column-label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thw-sortable-item input[type="checkbox"] {
+    margin: 0 10px 0 0;
+}
+.ui-state-highlight {
+    height: 40px;
+    background: #e6e6e6;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+}
+.thw-column-label input{
+width: fit-content;
+}
+.thws-content-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 20px 0;
+    padding-bottom: 28px;
+    position: relative;
+}
+
+.thws-content-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+    transition: width 0.3s ease;
+}
+
+#thw-settings-form .button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    line-height: 1.5;
+}
+
+#thw-settings-form .button-primary {
+    background: #524CFF;
+    border-color: #524CFF;
+    color: #ffffff;
+}
+
+#thw-settings-form .button-primary:hover,
+#thw-settings-form .button-primary:focus {
+    background: #524CFF;
+    border-color: #524CFF;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#thw-settings-form .button-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#thw-settings-form .button:not(.button-primary) {
+    background: #f8f9fa;
+    border-color: #dcdcde;
+    color: #1d2327;
+}
+
+#thw-settings-form .button:not(.button-primary):hover,
+#thw-settings-form .button:not(.button-primary):focus {
+    background: #e9ecef;
+    border-color: #c3c4c7;
+    color: #0a0a0b;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#thw-settings-form .button:not(.button-primary):active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.th-row-with-checkbox td{
+display:flex;
+}
+
+.th-row-with-checkbox .description{
+margin-top:0!important;
+}
+
+.form-table .th-sort-row p{
+margin-top:0px!important;
+margin-bottom: 16px;
+}
+#thw-sortable-columns .thw-sortable-item .thw-column-label input{
+width:180px;
+}
+
+
+/* radio image settings */
+.th-row-with-icon-radio{
+display:flex;
+align-items:center;
+}
+
+.thw-dashicon-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.thw-dashicon-option {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.thw-dashicon-option input[type="radio"] {
+    display: none;
+}
+
+.thw-dashicon-option span {
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    transition: all 0.2s;
+    display: block;
+}
+
+.thw-dashicon-option input[type="radio"]:checked + span {
+    border-color: #524CFF;
+    background: #f0f6fc;
+}
+
+.thw-dashicon-option span:hover {
+    border-color: #524CFF;
+}
+
+#thw-settings-form input.th_color_picker{
+    font-size: 0!important;
+    position: relative;
+    height: 35px!important;
+    width:35px!important;
+    cursor: pointer;
+    background-size: 0;
+    transition: all .3s;
+    border: 2px solid #eee;
+    border-radius:50%;
+    margin:10px 0;
+}
+
+#thw-settings-form .th-row-flex{
+display: flex;
+justify-content:flex-start;
+}
+
+.th-color-picker{
+margin-right:1.5rem;
+}
+.th-number input[type=number].small-text{
+    height: 3px !important;
+    width: 45px !important;
+    cursor: pointer;
+    background-size: 0;
+    transition: all .3s;
+    border: 2px solid #eee;
+    margin: 10px 0;
+}
+#thw-settings-form .form-table input[type=number]{
+    width:60px;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    .thw-tabs-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .thw-tabs-nav {
+        width: 100%;
+        background: none;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .thw-tab {
+        padding: 10px 15px;
+        font-size: 13px;
+        border-left-width: 3px;
+    }
+
+    .thw-tab.active::after {
+        display: none;
+    }
+
+    .thw-tabs-content {
+        padding: 15px;
+        border-radius: 6px;
+    }
+
+    .thw-tabs-content .form-table input[type="text"],
+    .form-table input[type="url"],
+    .thw-tabs-content .form-table select {
+        max-width: 100%;
+    }
+
+     #thw-settings-form .button {
+        padding: 6px 16px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .thw-tabs-content .form-table th,
+   .thw-tabs-content .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+   .thw-tabs-content .form-table th {
+        padding-bottom: 5px;
+    }
+
+    #thw-settings-form .button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* color picker */
+.thwl-setting-group .thwl-setting-content .th-color-picker{
+    display:flex;
+    margin:0;
+    width:100%!important;
+    justify-content: space-between;
+    margin:0;
+    align-items: center;
+    margin: 0!important;
+}
+.thwl-setting-group .thwl-setting-content .th-color-picker{
+    display:flex;
+    margin:0;
+    width:100%;
+    justify-content: space-between;
+    margin:0;
+    align-items: center;
+}
+.thwl-setting-group .thwl-setting-content .th-color-picker p{
+    margin:0;
+}
+.th-color-reset{
+background:none;
+border:none;
+cursor:pointer;
+}
+.th-color-reset span{
+font-size: 12px;
+    height: 12px;
+    width: 12px;
+    color:#888;
+}
+.th-color-content{
+display:flex;
+  align-items: center;   
+}
+
+
+.thwl-setting-group .thwl-setting-content .th-color-picker p{
+    margin:0;
+}
+
+.thwl-pro-style-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    font-family: Arial, sans-serif;
+}
+
+
+/**********************/
+/* new styel */
+/***********************/
+/* Tabs */
+.thwl-pro-tabs { 
+    list-style: none; 
+    display: flex; 
+    margin-bottom: 20px; 
+    padding: 0; 
+    border-bottom: 2px solid #ddd; 
+    flex-wrap: wrap; 
+}
+
+.thwl-pro-tabs li { 
+    padding: 10px 15px; 
+    margin-right: 5px; 
+    cursor: pointer; 
+    background: #f9f9f9; 
+    border-radius: 5px 5px 0 0; 
+    border: 1px solid #ddd; 
+    border-bottom: none; 
+    transition: all 0.3s ease; 
+}
+
+.thwl-pro-tabs li:hover { 
+    background: #e3f2fd; 
+}
+
+.thwl-pro-tabs li.active { 
+    background: #524CFF;
+    color: #fff; 
+}
+
+/* Tab Contents */
+.thwl-pro-tab-contents { 
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.thwl-settings-left, .thwl-live-preview-right { 
+
+    min-width: 280px; 
+}
+
+.thwl-settings-left{
+    width:30%;
+}
+.thwl-live-preview-right{ 
+     width:70%;
+}
+
+
+/* Live Preview */
+.thwl-live-preview-right { 
+    border: 1px solid #ddd; 
+    padding: 15px; 
+    background: #fefefe; 
+    border-radius: 5px; 
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.03); 
+}
+
+/* Tab content visibility */
+.thwl-tab-content { 
+    display: none; 
+    width: 100%;
+    flex-direction: row; 
+}
+
+.thwl-tab-content.active { 
+    display: flex; 
+    margin-top: 10px;
+}
+
+/* Wrapper */
+.thwl-settings-wrapper {
+    display: flex;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Left Panel */
+.thwl-settings-left {
+
+    border-radius: 10px;
+}
+
+/* Grouped Settings */
+.thwl-setting-group {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.thwl-setting-group:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Label */
+.thwl-setting-label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+#thw-settings-form input.th_color_picker{
+    margin:0!important;
+}
+/* Icon Options */
+.thw-icon-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.thw-dashicon-option {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+    border:none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.thw-dashicon-option span{
+    border:1px solid #ddd!important;
+}
+.thw-dashicon-option:hover {
+    border-color: #6a4df5;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Hide radio buttons but still selectable */
+.thw-dashicon-option input[type="radio"] {
+    display: none;
+}
+
+/* Highlight selected icon */
+.thw-dashicon-option input[type="radio"]:checked + span {
+    border: 1px solid #6a4df5!important;
+    border-radius: 5px;
+}
+
+/* Color picker container */
+.th-color-picker {
+    margin-top: 10px;
+}
+
+.th-color-picker label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #555;
+}
+
+.th-color-picker input {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+}
+/* Right Panel - Live Preview */
+.thwl-live-preview-right {
+    flex: 1.5;
+    background: #fff;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.thwl-live-preview-right h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Button Preview */
+#thwl_button_preview {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.thwl-setting-content.thwl-2-col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.thwl-setting-content.thwl-2-col .th-color-picker {
+    width:35%;
+    box-sizing: border-box;
+}
+.thwl-settings-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; /* align top */
+}
+
+/* Left Panel (scrollable) */
+/* Right Panel (sticky preview) */
+.thwl-live-preview-right {
+    position: sticky;
+    top: 20px; /* distance from top while scrolling */
+    align-self: flex-start; /* prevent stretching */
+    background: #fff; /* optional: white background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .thwl-pro-tab-contents { flex-direction: column; }
+    .thwl-settings-left, .thwl-live-preview-right { min-width: 100%; }
+}
+.thw-wishlist-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.thw-social-share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.thw-wishlist-table a, .thw-wishlist-actions a {
+    text-decoration: none !important;
+}
+ .th-number{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

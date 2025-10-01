@@ -1,0 +1,521 @@
+:root {
+  --highlight-color: #155dfc;
+  --light-text-color1: #6a7282;
+  --light-text-color2: #99a1af;
+  --tw-shadow: 0 20px 50px #00000026;
+}
+*{
+    box-sizing: border-box;
+}
+/* Voice Search Button */
+.tapsp-voice-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    padding: 0;
+    color: var(--light-text-color1);
+    transition: color 0.2s ease, background 0.2s ease;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.tapsp-voice-btn:hover {
+    color: var(--highlight-color);
+    background: #f0f4ff;
+}
+.tapsp-voice-btn.tapsp-voice-listening {
+    color: #e53e3e;
+    animation: tapsp-voice-pulse 1s ease-in-out infinite;
+}
+@keyframes tapsp-voice-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.6; transform: scale(1.15); }
+}
+.thaps-search-box{
+max-width:550px;
+}
+.thaps-search-box {
+    position: relative;
+    line-height: 100%;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.thaps-search-form{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.thaps-search-form,
+.thaps-autocomplete-suggestions {
+    position: relative;
+    animation: bounceDrop .05s linear;
+/*    animation: bounceDrop .1s cubic-bezier(.34,1.56,.64,1);*/*/
+}
+.thaps-from-wrap{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 2rem;
+    position: relative;
+    border: 1px solid;
+    border-color: #e7f5ff;
+}
+.tapsp-overlay-active .thaps-from-wrap{
+    z-index: 9999999!important
+}
+.thaps-from-wrap:focus-within{
+/*    box-shadow: 0px 0px 2px 1px var(--highlight-color);*/
+    border: 1px solid var(--highlight-color);
+}
+.thaps-search-autocomplete:focus{
+        outline: 0;
+}
+#thaps-search-button {
+background: var(--highlight-color);
+    width: 70px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    padding: 0;
+    border: 0;
+    margin: 0.3rem;
+    color: #fff;
+    word-break: initial;
+    border-radius: 16px;
+}
+
+
+#thaps-search-button:hover{
+background:#888;
+}
+.thaps-search-form .thaps-search-autocomplete {
+    min-height: 35px;
+    line-height: 35px;
+    border: none !important;
+    font-size: 14px;
+    width: 100%;
+    padding: 0.3rem 0.8rem;
+    margin: 0;
+    border-radius: 2rem !important;
+    background: transparent;
+    outline: 0!important;
+}
+
+.thaps-autocomplete-suggestions {
+    border: 1px solid #eee;
+    background: #FFF;
+    overflow: auto;
+    border-radius: 1rem;
+    margin-top: 9px;
+    /* box-shadow: 0 0 #000, 0 0 #000, 0 0 #000, 0 0 #000, var(--tw-shadow); */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-color: color-mix(in oklab, #FFF 20%, transparent);
+    background-color: #FFF !important;
+    z-index: 9999999!important;
+}
+
+.thaps-autocomplete-selected { background: #eff6fff7; }
+.thaps-autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.thaps-autocomplete-group { padding: 0.5rem; }
+.thaps-autocomplete-group strong { display: block; border-bottom: 1px solid #000; 
+}
+.thaps-autocomplete-suggestion{
+display:flex;
+overflow: hidden;
+margin:0;
+cursor: pointer;
+margin: 0 18px 2px 18px !important;
+ align-items: center;
+ padding: 5px 12px;
+gap: 16px;
+border-radius: 1rem;
+outline: 0!important;
+}
+
+.thaps-autocomplete-suggestion .thaps-img{
+    width: 32px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 0;
+    box-shadow: 0px 0px 2px 0 #b9b9b9;
+}
+
+.thaps-autocomplete-suggestion .thaps-img img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: alL .2s linear;
+}
+.thaps-autocomplete-suggestion:hover .thaps-img img{
+    transform: scale(1.12);
+    transition: alL .2s linear;
+}
+.thaps-autocomplete-suggestion.thaps-suggestion-product .thaps-img{
+    width: 80px;
+    border-radius: 16px;
+}
+.thaps-autocomplete-suggestion.thaps-suggestion-product .thaps-img img{
+    border-radius: 9px;
+}
+.thaps-autocomplete-suggestion .thaps-price{
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    color: #101828 !important;
+}
+
+.thaps-autocomplete-suggestion.thaps-suggestion-heading .thaps-title{
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--light-text-color2);
+}
+.thaps-suggestion-heading{
+margin-bottom: 0.5rem;
+pointer-events: none;
+}
+
+.thaps-suggestion-taxonomy-post-cat .thaps-title,.thaps-suggestion-taxonomy-product-cat .thaps-title{
+font-size:0.89rem;
+}
+.thaps-suggestion-taxonomy-product-cat,.thaps-suggestion-taxonomy-post-cat{
+padding: 0.5rem;
+}
+ .thaps-title{
+color:#333;
+font-size:0.89rem;
+font-weight:bold;
+}
+.thaps-suggestion-heading .thaps-title strong{
+color: #555;
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.thaps-suggestion-more strong{
+color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.thaps-content-wrapp{
+line-height:normal;
+}
+.thaps-price del{
+color:#949494;
+margin-right:0.3rem;
+opacity: 0.5;
+}
+.thaps-price ins{
+text-decoration:none;
+}
+.nonce_result_show{
+opacity:0.5;
+pointer-events: none;
+}
+
+.thaps-preloader{
+height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    z-index: 1;
+    background:none;
+    display: none;
+
+}
+.thaps-loading {
+    height: 0;
+    width: 0;
+    padding: 10px;
+    border: 3px solid #cccccc6e;
+    border-right-color: #8888887a;
+    border-radius: 50%;
+    -webkit-animation: rotate 1s infinite linear;
+    position: absolute;
+    top: 9px;
+    margin-right: 10px;
+}
+
+@-webkit-keyframes rotate {
+  /* 100% keyframe for  clockwise. 
+     use 0% instead for anticlockwise */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes thaps-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.submit-no-active .thaps-from-wrap .th-icon, .bar_style .th-icon,
+.icon_style .thaps-from-wrap .th-icon{
+position:absolute;
+left:0.5rem
+}
+
+.submit-no-active .thaps-from-wrap .th-icon{
+      color: #111;  
+}
+.submit-no-active .thaps-search-autocomplete,
+.bar_style .thaps-search-autocomplete,.icon_style .thaps-search-autocomplete{
+padding: 0.3rem 0.3rem 0.3rem 2.8rem;
+}
+.submit-no-active .thaps-from-wrap, .bar_style .thaps-from-wrap,
+.icon_style .thaps-from-wrap{
+    align-items: center;
+}
+
+.thaps-search-box.bar_style #thaps-search-button{
+width:35px;
+height:35px;
+line-height:35px;
+background:none;
+cursor:pointer;
+}
+
+.thaps-search-box.bar_style #thaps-search-button .th-icon{
+color:#111;
+}
+
+.thaps-search-box.bar_style .thaps-search-autocomplete{
+padding:0.3rem;
+}
+
+#thaps-search-button:focus{
+outline:none;
+}
+.thaps-suggestion-more{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #f6f3f4 !important;
+    padding: 9px 16px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    margin: 0 !important;
+    border-radius: 0;
+    background: #FFF !important;
+}
+ 
+.thaps-autocomplete-suggestion.thaps-suggestion-more .thaps-title{
+    color: var(--highlight-color);
+}
+.thaps-suggestion-more:hover .thaps-content-wrapp{
+    background: var(--highlight-color);
+}
+.thaps-autocomplete-suggestion.thaps-suggestion-more:hover .thaps-title{
+    color: #FFF!important;
+}
+.thaps-suggestion-more .thaps-content-wrapp{
+    justify-content: center;
+    padding: 9px 0;
+    color: var(--highlight-color);
+    border-radius: .75rem;
+}
+.thaps-suggestion-more .thaps-content-wrapp *{
+    color: inherit;
+}
+.thaps-suggestion-more .thaps-content-wrapp {
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+}
+
+.thaps-suggestion-more .thaps-title{
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 600;
+    letter-spacing: -.5px;
+}
+.thaps-suggestion-more .thaps-title:after {
+    content: "\003E";
+    position: relative;
+    margin-left: 16px;
+}
+.thaps-suggestion-more .thaps-content-wrapp:hover .thaps-title:after {
+    margin-left: 18px;
+}
+.thaps-autocomplete-suggestion .thaps-title{
+    font-weight: 600;
+    font-size: .875rem;
+    letter-spacing: .029px;
+    line-height: 1.425;
+    display: inline;
+    margin-right: 4px;
+    text-transform: capitalize;
+    color: #101828;
+}
+.thaps-autocomplete-suggestion .thaps-price{
+display:block;
+}
+.thaps-sku{
+font-size: 0.8rem;
+    font-weight: 500;
+    color: #555;
+}
+.thaps-desc{
+    font-size: 11px;
+    line-height: 1.25;
+    display: block;
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-width: 100%;
+    color: var(--light-text-color1);
+}
+.thaps-content-right{
+    text-align: right;
+}
+.thaps-content-wrapp {
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    align-items: center;
+    width: 100%;
+}
+
+.thaps-suggestion-more .thaps-content-wrapp {
+
+    justify-content: center;
+}
+
+.icon_style .thaps-search-form {
+    opacity:0;
+    display:none;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 8px);
+    min-width:270px;
+    z-index: 1;
+}
+.icon_style.thaps-box-open .thaps-search-form{
+    opacity:1;
+    display:block;
+}
+
+.icon_style .click-icon{
+    height: auto;
+    cursor: pointer;
+}
+.thaps-box-open .thaps-icon-arrow {
+    display: block;
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    z-index: 5;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    -webkit-transform: rotate(
+45deg
+);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}
+
+
+/* Chrome, Edge, Safari scrollbar CSS STARTS*/
+.thaps-autocomplete-suggestions::-webkit-scrollbar {
+    width: 6px;
+}
+
+.thaps-autocomplete-suggestions::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 6px; /* top-bottom gap for smooth curve */
+}
+
+.thaps-autocomplete-suggestions::-webkit-scrollbar-thumb {
+    background-color: #e9e4e6;
+    
+    /* One-sided smooth blending */
+    border-radius: 0 1rem 1rem 0;
+
+    /* spacing from edges */
+    border: 1px solid transparent;
+    background-clip: content-box;
+
+    transition: background 0.2s ease;
+}
+
+.thaps-autocomplete-suggestions::-webkit-scrollbar-thumb:hover {
+    background-color: #e3e2e3;
+}
+.thaps-search-box .th-icon{
+font-size:1.62rem;
+}
+
+/* Bounce animation */
+@keyframes bounceDrop {
+    0% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(2px); /* thoda neeche */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.thaps-suggestion-more:hover .thaps-content-wrapp *{
+    color: inherit;
+}
+
+
+/* tapsp-overlay Overlay CSS STARTS  */
+.tapsp-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: none;
+    z-index:1000008;
+}
+@media screen and (max-width: 767px){
+div.thaps-autocomplete-suggestions{
+    width: 95% !important;
+    left: 0 !important;
+    right: 0!important;
+    margin: 0 auto!important;
+    margin-top: 9px!important;
+}
+.thaps-content-right{
+    text-align: left;
+}
+}
+
+.tapsp-overlay-active .taiowc-fixed-cart .taiowc-content,
+.tapsp-overlay-active .taiowcp-fixed-cart .taiowcp-content{
+    z-index: 2!important;
+}

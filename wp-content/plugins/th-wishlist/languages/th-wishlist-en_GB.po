@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TH Wishlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-19 12:08+0000\n"
+"PO-Revision-Date: 2025-07-19 12:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.0\n"
+"X-Domain: th-wishlist"
+
+#: includes/admin/class-th-wishlist-settings.php:122
+msgid "\"Add to Wishlist\" Text"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:128
+msgid "\"Browse Wishlist\" Text"
+msgstr ""
+
+#. 1: Plugin name, 2: woocommerce link.
+#: th-wishlist.php:167
+#, php-format
+msgid "%1$s requires %2$s to be installed and active."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:553
+msgid "Add Selected to Cart"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:653
+#: includes/admin/class-th-wishlist-settings-ajax.php:39
+#: includes/admin/class-th-wishlist-settings.php:46
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:102
+#: includes/class-th-wishlist-frontend.php:741
+#: includes/admin/class-th-wishlist-settings.php:124
+#: includes/admin/class-th-wishlist-settings.php:529
+msgid "Add to Wishlist"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:276
+msgid "Add to Wishlist Icon"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:296
+msgid "Add to Wishlist Icon color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:183
+msgid "After \"Add to Cart\""
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:159
+msgid "After \"Add to Cart\" Button"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:184
+msgid "After Summary"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:206
+msgid "Allows logged-in users to share their wishlist."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:62
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:134
+msgid "Are you sure you want to permanently delete this wishlist?"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-admin.php:77
+msgid "Are you sure you want to reset all settings to default?"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:342
+#: includes/admin/class-th-wishlist-settings.php:385
+msgid "Backround color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:160
+msgid "Before \"Add to Cart\" Button"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:185
+msgid "Before Summary"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:388
+msgid "Border color"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:61
+#: includes/class-th-wishlist-frontend.php:105
+#: includes/class-th-wishlist-frontend.php:744
+#: includes/admin/class-th-wishlist-settings.php:130
+#: includes/admin/class-th-wishlist-settings.php:530
+msgid "Browse Wishlist"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:303
+msgid "Browse Wishlist Icon"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:327
+msgid "Browse Wishlist Icon color"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:429
+#: includes/admin/class-th-wishlist-settings.php:339
+msgid "Button"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:368
+msgid "Button Background color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:111
+#: includes/admin/class-th-wishlist-settings.php:361
+msgid "Button Style"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:364
+msgid "Button Text color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:212
+msgid "Check the columns to display and drag to reorder."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:33
+#: includes/admin/class-th-wishlist-settings.php:40
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:283
+msgid "Choose add to wishlist icon"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:310
+msgid "Choose Browse to wishlist icon"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:138
+msgid "Choose to Wishlist button style as theme"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:510
+msgid "Click to Tweet"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:422
+#: includes/admin/class-th-wishlist-settings.php:435
+#: includes/admin/class-th-wishlist-settings.php:448
+#: includes/admin/class-th-wishlist-settings.php:461
+#: includes/admin/class-th-wishlist-settings.php:474
+msgid "Color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:499
+msgid "Contact Support"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:625
+msgid "Copy Link"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:471
+msgid "Copy Url"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:397
+msgid "Could not retrieve your wishlist."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:75
+msgid "Date"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:430
+#: includes/admin/class-th-wishlist-settings-ajax.php:40
+#: includes/admin/class-th-wishlist-settings.php:47
+msgid "Date Added"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:183
+msgid "Delete"
+msgstr ""
+
+#. %s : Wishlist Name
+#: includes/admin/class-th-wishlist-list-table.php:136
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:493
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:618
+#: includes/admin/class-th-wishlist-settings.php:458
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:151
+msgid "Enable the \"Add to wishlist\" feature in WooCommerce products loop"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:175
+msgid "Enable the \"Add to wishlist\" feature in WooCommerce products Page"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:507
+msgid ""
+"Enjoying this plugin? Help spread the the creation and show off your amazing "
+"website with such amazing functionality."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-admin.php:76
+msgid "Error resetting settings. Please try again."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:197
+#: includes/admin/class-th-wishlist-settings-ajax.php:206
+msgid "Error saving settings. Invalid data."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-admin.php:74
+msgid "Error saving settings. Please try again."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:597
+#: includes/admin/class-th-wishlist-settings.php:419
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:67
+#: includes/admin/class-th-wishlist-settings.php:78
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:149
+msgid "Guest"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:426
+#: includes/admin/class-th-wishlist-settings.php:439
+#: includes/admin/class-th-wishlist-settings.php:452
+#: includes/admin/class-th-wishlist-settings.php:465
+#: includes/admin/class-th-wishlist-settings.php:478
+msgid "Hover"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themehunk.com/wishlist"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.themehunk.com"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:114
+msgid "Icon and Text"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:116
+msgid "Icon Only (No Button Style)"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:115
+msgid "Icon Only (with Button Style)"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:500
+msgid "If you need any help you can contact to our support team"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:424
+#: includes/admin/class-th-wishlist-settings-ajax.php:34
+#: includes/admin/class-th-wishlist-settings.php:41
+msgid "Image"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:499
+msgid "In Stock"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:233
+msgid "Invalid bulk delete request."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:192
+#: includes/admin/class-th-wishlist-settings-ajax.php:217
+msgid "Invalid permissions."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:863
+msgid "Invalid product or item ID."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:209
+msgid "Invalid wishlist ID."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:74
+msgid "Items"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:94
+#: includes/class-th-wishlist-frontend.php:766
+msgid "Login to add to wishlist"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:69
+#: includes/admin/class-th-wishlist-settings.php:145
+msgid "Loop Settings"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:852
+msgid "Missing required data."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:585
+#: includes/admin/class-th-wishlist-data.php:51
+#: includes/admin/class-th-wishlist-data.php:67
+msgid "My Wishlist"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:35
+#: includes/admin/class-th-wishlist-settings.php:42
+#: includes/admin/class-th-wishlist-list-table.php:71
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:501
+msgid "Need Help ?"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:248
+msgid "No valid wishlist IDs provided."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:161
+msgid "On Top"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:102
+msgid "Only logged-in users can add products to the wishlist."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:500
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:155
+msgid "Position of \"Add to wishlist\" in loop"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:179
+msgid "Position of \"Add to wishlist\" on product page"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:426
+#: includes/admin/class-th-wishlist-settings-ajax.php:36
+#: includes/admin/class-th-wishlist-settings.php:43
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:73
+msgid "Privacy"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:425
+msgid "Product"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:884
+msgid "Product added and wishlist updated."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:869
+msgid "Product not available."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:70
+#: includes/admin/class-th-wishlist-settings.php:169
+msgid "Product Page"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:428
+#: includes/admin/class-th-wishlist-settings-ajax.php:38
+#: includes/admin/class-th-wishlist-settings.php:45
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:196
+msgid "Redirect to Cart"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:431
+#: includes/admin/class-th-wishlist-settings-ajax.php:41
+#: includes/admin/class-th-wishlist-settings.php:48
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:199
+msgid ""
+"Remove Product in Wishlist table and Redirect to the cart page after adding "
+"item(s) from the wishlist."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:530
+msgid "Remove this product"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:99
+msgid "Require Login"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:488
+msgid "Reset to Defaults"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:487
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:48
+#: includes/admin/class-th-wishlist-list-table.php:238
+msgid "Security check failed."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:202
+msgid "Security check failed. Invalid nonce."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:92
+msgid "Select a page"
+msgstr ""
+
+#: th-wishlist.php:146
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:222
+#: includes/admin/class-th-wishlist-admin.php:75
+msgid "Settings reset to defaults!"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings-ajax.php:203
+#: includes/admin/class-th-wishlist-admin.php:73
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:416
+msgid "Share Button"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:590
+msgid "Share on:"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:148
+msgid "Show \"Add to wishlist\" in loop"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:172
+msgid "Show \"Add to wishlist\" in Product Page"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:203
+msgid "Show Social Share Buttons"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:506
+msgid "Spread the News"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:427
+#: includes/admin/class-th-wishlist-settings-ajax.php:37
+#: includes/admin/class-th-wishlist-settings.php:44
+msgid "Stock Status"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:72
+msgid "Style Customization"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:346
+#: includes/admin/class-th-wishlist-settings.php:393
+msgid "Text color"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:117
+msgid "Text Only"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:131
+msgid "Text shown when the product is already in the wishlist."
+msgstr ""
+
+#. Name of the plugin
+#: th-wishlist.php:168 includes/admin/class-th-wishlist-settings.php:25
+#: includes/admin/class-th-wishlist-settings.php:26
+#: includes/admin/class-th-wishlist-settings.php:64
+msgid "TH Wishlist"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"TH Wishlist is a powerful and user-friendly wishlist plugin for WooCommerce "
+"that lets your customers save their favorite products for later and helps "
+"boost conversions by keeping users engaged with the products they love."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-track.php:46
+msgid "TH Wishlists"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:95
+msgid "The page where the `[thwl_wishlist]` shortcode is located."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:386
+msgid "The wishlist you are trying to view does not exist or has been deleted."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:135
+msgid "Theme Default Style"
+msgstr ""
+
+#. Author of the plugin
+msgid "themehunk"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:379
+msgid "This wishlist is private and cannot be viewed."
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:432
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:162
+#: includes/admin/class-th-wishlist-settings.php:186
+msgid "Use Shortcode"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:72
+msgid "Username"
+msgstr ""
+
+#. %s : Wishlist Name
+#: includes/admin/class-th-wishlist-list-table.php:123
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:495
+msgid "View More"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:494
+msgid "Want to know how this plugin works. Read our Documentation."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:611
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:445
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:19
+msgid "Wishlist"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:68
+#: includes/admin/class-th-wishlist-settings.php:108
+#: includes/admin/class-th-wishlist-settings.php:252
+msgid "Wishlist Button"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:805
+msgid "Wishlist Icon"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:71
+#: includes/admin/class-th-wishlist-settings.php:81
+#: includes/admin/class-th-wishlist-settings.php:193
+#: includes/admin/class-th-wishlist-settings.php:358
+msgid "Wishlist Page"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:382
+msgid "Wishlist Table"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-settings.php:210
+msgid "Wishlist Table Columns"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-track.php:28
+#: includes/admin/class-th-wishlist-list-table.php:20
+msgid "Wishlists"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-track.php:27
+msgid "Wishlists Tracking"
+msgstr ""
+
+#: th-wishlist.php:169
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:604
+msgid "X (Twitter)"
+msgstr ""
+
+#: includes/admin/class-th-wishlist-list-table.php:197
+#: includes/admin/class-th-wishlist-list-table.php:228
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/class-th-wishlist-frontend.php:63
+#: includes/class-th-wishlist-frontend.php:542
+msgid "Your wishlist is currently empty."
+msgstr ""
