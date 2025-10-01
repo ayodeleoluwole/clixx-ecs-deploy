@@ -1,0 +1,15 @@
+python3-virtualenv/*
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Providers (CRITICAL)
+instances/.terraform/
+
+# OS
+.DS_Store
+
+
+
