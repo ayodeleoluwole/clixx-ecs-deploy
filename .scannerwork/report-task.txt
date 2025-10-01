@@ -1,0 +1,6 @@
+projectKey=Clixx-App
+serverUrl=http://54.234.237.27:9000
+serverVersion=10.5.0.89998
+dashboardUrl=http://54.234.237.27:9000/dashboard?id=Clixx-App
+ceTaskId=190626b6-5d0f-4a66-aa19-5866a6038a19
+ceTaskUrl=http://54.234.237.27:9000/api/ce/task?id=190626b6-5d0f-4a66-aa19-5866a6038a19
